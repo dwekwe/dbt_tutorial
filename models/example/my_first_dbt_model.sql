@@ -7,6 +7,7 @@
     Try changing "table" to "view" below
 */
 
+-- add this comment to test ci
 {{ config(materialized='table') }}
 
 with source_data as (
