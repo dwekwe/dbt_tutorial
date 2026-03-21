@@ -8,6 +8,7 @@
 */
 
 -- add this comment to test ci
+-- add another comment to test ci after creating ci job
 {{ config(materialized='table') }}
 
 with source_data as (
